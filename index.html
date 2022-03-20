@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitaly Undro</title>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <!-- <nav class="menu"> -->
+        <ul class="menu">
+          <li><a class="menu__item" href="#">Home</a></li>
+          <li><a class="menu__item" href="#about_me">About me</a></li>
+          <li><a class="menu__item" href="#skills">Skills</a></li>
+          <li><a class="menu__item" href="#portfolio">Portfolio</a></li>
+          <li><a class="menu__item" href="#contacts">Contacts</a></li>
+        </ul>
+        <!-- </nav> -->
+        <div class="line"></div>
+      </div>
+    </header>
+    <main>
+      <section class="short_about">
+        <div class="container">
+          <div class="name__old">
+            <h1>Vitali Undro</h1>
+            <p>
+              I am a beginner web developer <br />
+              27 years old, Minsk
+            </p>
+          </div>
+          <div class="main_image">
+            <img class="main_photo" src="./img/Background.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="about_me" class="about_me">
+        <div class="container">
+          <div class="about">
+            <h2>About me</h2>
+            <p class="about_me__text first_word">
+              My aim is to become a JS developer. <br />
+            </p>
+            <p class="about_me__text">
+              I don’t have work experience in development but I do my best to
+              succeed in studying <br />
+            </p>
+            <p class="about_me__text">
+              Java Script programming language. <br />
+              <br />
+            </p>
+            <p class="about_me__text">
+              I’m a responsible person who is ready to learn hard and my strong
+              points are: <br />
+            </p>
+            <p class="about_me__text">
+              good soft skills, resilience, strong study capability and
+              attention to detail. <br />
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="container">
+          <h2 class="skills__title">Skills</h2>
+          <ul class="skills_item">
+            <li>
+              <img class="skills_item__img" src="./img/html_icon.png" alt="" />
+              <div class="rating-result">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+              </div>
+            </li>
+            <li>
+              <img class="skills_item__img" src="./img/css.png" alt="" />
+              <div class="rating-result">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+              </div>
+            </li>
+            <li>
+              <img class="skills_item__img" src="./img/js.png" alt="" />
+              <div class="rating-result">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </li>
+            <li>
+              <img class="skills_item__img" src="./img/git.png" alt="" />
+              <div class="rating-result">
+                <span class="active"></span>
+                <span class="active"></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="container">
+          <h2 class="skills__title">Portfolio</h2>
+          <div class="portfoli__title">
+            <h3 class="portfoli__title__text">My code</h3>
+            <pre><code class="example_code">
+                        incomeItem.addEventListener('input', () => {
+                            let items = incomeItem.value;
+                            console.log(1);
+                            if (isNaN(items) || items != '') {
+                                appData.income = items.split(',');
+                                incomeValue.textContent = appData.income;
+                            }
+                        });
+                        
+                        checkSavings.addEventListener("click", () => {
+                            if (appData.savings == true) {
+                                appData.savings = false;
+                            } else {
+                                appData.savings = true;
+                            }
+                        });
+                </code></pre>
+            <h3 class="portfoli__title__text">My project - Timezones</h3>
+            <a
+              href="https://rolling-scopes-school.github.io/undro-dev-JSFEPRESCHOOL/JSClock/"
+              target="_blank"
+              ><img
+                class="portfoli__title__img"
+                src="./img/big_ben.jpeg"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <div class="container">
+          <h2 class="skills__title">Education</h2>
+          <nav class="education">
+            <ul class="education__menu">
+              <li class="education__menu__text">
+                <h4>
+                  Military Academy of the Republic of Belaurs. Minsk (2011-2016)
+                </h4>
+                <br />
+                <p>Major: management and law</p>
+              </li>
+              <li class="education__menu__text">
+                <h4>BEONMAX and RS school</h4>
+                <h5>Web Development Courses</h5>
+                <br />
+                <p>
+                  HTML, CSS foundations <br />
+                  Java Script programming language <br />
+                  Git
+                </p>
+              </li>
+              <li class="education__menu__text">
+                <h4>My English level - A2</h4>
+                <h5>2English courses</h5>
+                <br />
+                <p>
+                  I have individual English lessons twice a week. <br />
+                  Also I study English, reading articles, <br />
+                  listening to music and watching films in the original.
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <footer id="contacts">
+        <div class="container">
+          <h2 class="skills__title">Contacts</h2>
+          <nav>
+            <ul class="contacts_menu">
+              <li>
+                <a href="https://t.me/Vitali_Undro" target="_blank"
+                  ><div class="contacts_img">
+                    <img
+                      src="./svg/telegram_logo_icon_144811.svg"
+                      alt=""
+                    /></div
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/vitaliy_undro/"
+                  target="_blank"
+                  ><div class="contacts_img">
+                    <img
+                      src="./svg/instagram_logo_icon_145167.svg"
+                      alt=""
+                    /></div
+                ></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"
+                  ><div class="contacts_img">
+                    <img src="./svg/youtube_logo_icon_144714.svg" alt="" /></div
+                ></a>
+              </li>
+              <li>
+                <a href="https://discord.gg/fT3dM2Xq" target="_blank"
+                  ><div class="contacts_img">
+                    <img src="./svg/discord_logo_icon_145337.svg" alt="" /></div
+                ></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="rs">
+            <h6>2022q1</h6>
+            <a href="https://rs.school/" target="_blank"
+              ><img class="rs_img" src="./svg/logo-rs.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
