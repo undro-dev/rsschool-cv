@@ -1,0 +1,20 @@
+.about_me {
+    background: #F6F6F6;
+    &__text {
+        font-family: Libre Baskerville;
+        font-size: 18px;
+line-height: 22px;
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+.first_word {
+    margin-top: 17px;
+}
