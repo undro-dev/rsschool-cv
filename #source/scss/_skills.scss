@@ -1,0 +1,34 @@
+.skills__title {
+  padding-top: 91px;
+  padding-bottom: 50px;  
+  text-align: center;
+}
+.skills_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 111px;
+    &__img {
+        max-width: 81px;
+        max-height: 81px;
+    }
+}
+.rating-result {
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+}
+.rating-result span {
+	padding-top: 10px;
+	font-size: 20px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+	content: '★';
+}
+.rating-result > span.active {
+	color: black;
+}
