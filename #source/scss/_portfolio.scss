@@ -1,0 +1,29 @@
+#portfolio {
+    background: #F6F6F6;
+}
+.portfoli__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__text {
+        font-family: Anton;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px 0;
+        
+    }
+    &__img {
+        max-height: 420px;
+        margin-bottom: 104px;
+        :hover {
+            border-radius: 30%;
+        }
+        }
+    }
+
+
+.example_code {
+    background-color: white;
+    max-height: 420px;
+}

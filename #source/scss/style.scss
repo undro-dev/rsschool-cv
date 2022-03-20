@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville:ital@1&display=swap');
+@import 'header.scss';
+@import 'short_about.scss';
+@import 'about_me.scss';
+@import 'skills.scss';
+@import 'portfolio.scss';
+@import 'education.scss';
+@import 'contacts.scss';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 943px;
+    margin: 0 auto;
+}
+h2 {
+    font-family: Anton;
+    font-size: 34px;
+line-height: 42px;
+}
+
+
+
+

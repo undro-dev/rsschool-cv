@@ -1,0 +1,25 @@
+.education__menu {
+    display: flex;
+    list-style: none;
+    // font-family: Anton;
+    // font-weight: bold;
+    align-items:center;
+    justify-content: space-between;
+    
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 33%;
+        min-height: 250px;
+        font-size: 17px;
+    }
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 19px;
+}
